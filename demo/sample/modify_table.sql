@@ -19,6 +19,9 @@ ADD constraint check (amount2 >= 0);
 ALTER TABLE summary
 ADD PRIMARY KEY(isbn);
 
+ALTER TABLE `table name`
+ADD column `id` int(10) unsigned primary KEY AUTO_INCREMENT;
+
 // 2. Add FOREIGN KEY
 ALTER TABLE summary
 ADD CONSTRAINT fk_isbn
