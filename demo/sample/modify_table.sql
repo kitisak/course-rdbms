@@ -2,6 +2,9 @@
 ALTER TABLE summary
 ADD amount decimal(5,2);
 
+//Rename table
+rename table summary to new_summary;
+
 //Change data type of column
 ALTER TABLE summary
 MODIFY amount int;
